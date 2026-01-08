@@ -20,24 +20,24 @@ export default function Support() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white p-6 rounded-xl shadow-md text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Mail className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Mail className="w-8 h-8 text-primary-600" />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Email</h3>
                 <p className="text-gray-600">support@aidquarter.com</p>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-md text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Phone className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Phone className="w-8 h-8 text-primary-600" />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Phone</h3>
                 <p className="text-gray-600">+234 800 000 0000</p>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-md text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MapPin className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <MapPin className="w-8 h-8 text-primary-600" />
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Office</h3>
                 <p className="text-gray-600">Lagos, Nigeria</p>
@@ -84,7 +84,7 @@ export default function Support() {
 
                 <button
                   type="submit"
-                  className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                  className="w-full px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
                 >
                   Send Message
                 </button>

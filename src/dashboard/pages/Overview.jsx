@@ -54,7 +54,7 @@ export default function Overview() {
 
             <button
               onClick={handleContinueWelcome}
-              className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+              className="w-full px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
             >
               Continue
             </button>
@@ -72,8 +72,8 @@ export default function Overview() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="bg-white rounded-xl shadow-md p-6">
             <div className="flex items-center justify-between mb-4">
-              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                <Briefcase className="w-6 h-6 text-blue-600" />
+              <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center">
+                <Briefcase className="w-6 h-6 text-primary-600" />
               </div>
               <span className="text-sm font-medium text-gray-500">Role</span>
             </div>
@@ -197,7 +197,7 @@ export default function Overview() {
         </div>
 
         {/* Quick Actions */}
-        <div className="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-6">
+        <div className="mt-6 bg-primary-50 border border-primary-200 rounded-lg p-6">
           <h3 className="text-lg font-bold text-blue-900 mb-3">Next Steps</h3>
           <ul className="space-y-2 text-sm text-blue-800">
             <li>• Check your email regularly for updates on your application status</li>

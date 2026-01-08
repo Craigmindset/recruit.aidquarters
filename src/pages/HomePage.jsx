@@ -102,7 +102,7 @@ export default function HomePage() {
               </p>
               <button
                 onClick={() => navigate("/recruitment")}
-                className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                className="px-8 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
               >
                 Start Your Application
               </button>
@@ -116,7 +116,7 @@ export default function HomePage() {
                   </span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Shield className="w-6 h-6 text-blue-600" />
+                  <Shield className="w-6 h-6 text-primary-600" />
                   <span className="text-sm font-medium text-gray-700">
                     Reference Checked
                   </span>
@@ -138,7 +138,7 @@ export default function HomePage() {
                   className="rounded-lg w-full h-auto"
                 />
                 <div className="mt-6 text-center">
-                  <div className="text-4xl font-bold text-blue-600">143+</div>
+                  <div className="text-4xl font-bold text-primary-600">143+</div>
                   <div className="text-gray-600 font-medium">
                     Verified Workers
                   </div>
@@ -185,8 +185,8 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-md">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                <Shield className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4">
+                <Shield className="w-8 h-8 text-primary-600" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">
                 Background Verification
@@ -241,14 +241,14 @@ function RecruitmentCard({ role }) {
 
   return (
     <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow flex flex-col">
-      <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-        <IconComponent className="w-8 h-8 text-blue-600" />
+      <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4">
+        <IconComponent className="w-8 h-8 text-primary-600" />
       </div>
       <h3 className="text-xl font-bold text-gray-900 mb-2">{role.title}</h3>
       <p className="text-sm text-gray-600 mb-6 flex-grow">{role.description}</p>
       <button
         onClick={handleRegister}
-        className="w-full px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+        className="w-full px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
       >
         Register
       </button>

@@ -52,7 +52,7 @@ export default function Dashboard() {
 
             <button
               onClick={handleContinue}
-              className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+              className="w-full px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
             >
               Continue
             </button>
@@ -65,7 +65,7 @@ export default function Dashboard() {
           <h1 className="text-2xl font-bold text-gray-900 mb-6">Dashboard</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+            <div className="bg-primary-50 border border-primary-200 rounded-lg p-4">
               <h3 className="font-semibold text-blue-900 mb-2">
                 Personal Information
               </h3>
@@ -109,7 +109,7 @@ export default function Dashboard() {
           <div className="border-t pt-6">
             <button
               onClick={() => navigate("/verification-pending")}
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+              className="px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
             >
               View Verification Status
             </button>
