@@ -248,9 +248,9 @@ export default function SignupFlow() {
                   </button>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+                <div className="bg-primary-50 border border-primary-200 rounded-lg p-4 mb-6">
                   <div className="flex items-start">
-                    <AlertCircle className="w-6 h-6 text-blue-600 mt-0.5 mr-3 flex-shrink-0" />
+                    <AlertCircle className="w-6 h-6 text-primary-600 mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <h3 className="font-semibold text-blue-900 mb-2">
                         Documents Required for{" "}
@@ -278,7 +278,7 @@ export default function SignupFlow() {
 
                 <button
                   onClick={() => setShowRequirementsPopup(false)}
-                  className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                  className="w-full px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
                 >
                   I Understand, Continue
                 </button>
@@ -300,7 +300,7 @@ export default function SignupFlow() {
                 <div
                   className={`w-10 h-10 rounded-full flex items-center justify-center font-semibold ${
                     index <= currentStep
-                      ? "bg-blue-600 text-white"
+                      ? "bg-primary-600 text-white"
                       : "bg-gray-300 text-gray-600"
                   }`}
                 >
@@ -309,7 +309,7 @@ export default function SignupFlow() {
                 {index < 3 && (
                   <div
                     className={`h-1 w-12 md:w-24 ${
-                      index < currentStep ? "bg-blue-600" : "bg-gray-300"
+                      index < currentStep ? "bg-primary-600" : "bg-gray-300"
                     }`}
                   />
                 )}
@@ -535,7 +535,7 @@ export default function SignupFlow() {
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                className="w-full px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
               >
                 Continue
               </button>
@@ -609,7 +609,7 @@ export default function SignupFlow() {
                     <button
                       type="button"
                       onClick={handleSendOTP}
-                      className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium"
+                      className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-medium"
                     >
                       {otpSent ? "Resend OTP" : "Send OTP"}
                     </button>
@@ -768,7 +768,7 @@ export default function SignupFlow() {
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                className="w-full px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
               >
                 Continue
               </button>
@@ -837,7 +837,7 @@ export default function SignupFlow() {
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                className="w-full px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
               >
                 Continue to Verification
               </button>
@@ -877,7 +877,7 @@ export default function SignupFlow() {
                 the button below to capture your photo for verification.
               </p>
 
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6 text-left">
+              <div className="bg-primary-50 border border-primary-200 rounded-lg p-4 mb-6 text-left">
                 <h3 className="font-semibold text-blue-900 mb-2">
                   Verification Tips:
                 </h3>
@@ -892,7 +892,7 @@ export default function SignupFlow() {
 
             <button
               onClick={handleFacialVerification}
-              className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+              className="px-8 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
             >
               Capture & Verify
             </button>

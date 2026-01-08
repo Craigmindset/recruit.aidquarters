@@ -112,7 +112,7 @@ export default function LoginPage() {
                 </label>
                 <a
                   href="#"
-                  className="text-sm text-blue-600 hover:text-blue-700"
+                  className="text-sm text-primary-600 hover:text-primary-700"
                 >
                   Forgot password?
                 </a>
@@ -120,7 +120,7 @@ export default function LoginPage() {
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                className="w-full px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
               >
                 Sign In
               </button>
@@ -131,7 +131,7 @@ export default function LoginPage() {
                 Don't have an account?{" "}
                 <button
                   onClick={() => navigate("/recruitment")}
-                  className="text-blue-600 hover:text-blue-700 font-semibold"
+                  className="text-primary-600 hover:text-primary-700 font-semibold"
                 >
                   Sign Up
                 </button>

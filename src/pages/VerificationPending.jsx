@@ -81,21 +81,21 @@ export default function VerificationPending() {
 
             <div className="grid grid-cols-3 gap-4 max-w-md mx-auto">
               <div className="bg-white rounded-lg p-4 text-center shadow-md">
-                <div className="text-4xl font-bold text-blue-600">
+                <div className="text-4xl font-bold text-primary-600">
                   {timeRemaining.hours.toString().padStart(2, "0")}
                 </div>
                 <div className="text-sm text-gray-600 mt-2">Hours</div>
               </div>
 
               <div className="bg-white rounded-lg p-4 text-center shadow-md">
-                <div className="text-4xl font-bold text-blue-600">
+                <div className="text-4xl font-bold text-primary-600">
                   {timeRemaining.minutes.toString().padStart(2, "0")}
                 </div>
                 <div className="text-sm text-gray-600 mt-2">Minutes</div>
               </div>
 
               <div className="bg-white rounded-lg p-4 text-center shadow-md">
-                <div className="text-4xl font-bold text-blue-600">
+                <div className="text-4xl font-bold text-primary-600">
                   {timeRemaining.seconds.toString().padStart(2, "0")}
                 </div>
                 <div className="text-sm text-gray-600 mt-2">Seconds</div>
@@ -165,9 +165,9 @@ export default function VerificationPending() {
           </div>
 
           {/* Important Information */}
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+          <div className="bg-primary-50 border border-primary-200 rounded-lg p-6">
             <div className="flex items-start">
-              <AlertCircle className="w-6 h-6 text-blue-600 mt-0.5 mr-3 flex-shrink-0" />
+              <AlertCircle className="w-6 h-6 text-primary-600 mt-0.5 mr-3 flex-shrink-0" />
               <div>
                 <h3 className="font-semibold text-blue-900 mb-2">
                   What Happens Next?
@@ -193,7 +193,7 @@ export default function VerificationPending() {
           <div className="mt-8 text-center">
             <button
               onClick={() => navigate("/dashboard")}
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+              className="px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
             >
               Return to Dashboard
             </button>

@@ -18,8 +18,8 @@ export default function ManagementCourse() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             <div className="bg-white rounded-xl shadow-md p-6">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                <BookOpen className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4">
+                <BookOpen className="w-8 h-8 text-primary-600" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Course Materials</h3>
               <p className="text-sm text-gray-600">Access comprehensive learning resources</p>
@@ -50,7 +50,7 @@ export default function ManagementCourse() {
             </div>
           </div>
 
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 text-center">
+          <div className="bg-primary-50 border border-primary-200 rounded-lg p-8 text-center">
             <h2 className="text-2xl font-bold text-blue-900 mb-4">Coming Soon</h2>
             <p className="text-blue-800 max-w-2xl mx-auto">
               Our management course platform is currently under development. Once your application is approved, 

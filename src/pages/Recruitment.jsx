@@ -56,8 +56,8 @@ export default function Recruitment() {
                   key={role.id}
                   className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow flex flex-col"
                 >
-                  <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                    <IconComponent className="w-8 h-8 text-blue-600" />
+                  <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-4">
+                    <IconComponent className="w-8 h-8 text-primary-600" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     {role.title}
@@ -67,7 +67,7 @@ export default function Recruitment() {
                   </p>
                   <button
                     onClick={() => navigate(`/signup/${role.id}`)}
-                    className="w-full px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+                    className="w-full px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition font-semibold"
                   >
                     Apply Now
                   </button>
